@@ -1,0 +1,41 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1643419658",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\nakat\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn ./config/VisualObservationEx.yaml --run-id=test4_1",
+        "mlagents_version": "0.17.0",
+        "mlagents_envs_version": "0.17.0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.4.1",
+        "end_time_seconds": "1643419742"
+    },
+    "total": 84.10469040000001,
+    "count": 1,
+    "self": 0.26385270000001526,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0584408,
+            "count": 1,
+            "self": 0.0584408
+        },
+        "TrainerController.start_learning": {
+            "total": 83.7823969,
+            "count": 1,
+            "self": 0.0007343999999989137,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 83.7813138,
+                    "count": 1,
+                    "self": 83.7813138
+                },
+                "TrainerController._save_model": {
+                    "total": 0.00034869999998932144,
+                    "count": 1,
+                    "self": 0.00034869999998932144
+                }
+            }
+        }
+    }
+}
